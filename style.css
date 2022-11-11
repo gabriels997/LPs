@@ -1,0 +1,284 @@
+* {border: solid 1px black}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50vw;
+    height: 20vh;
+}
+
+.header-logo {
+    margin-top: 40px;
+}
+
+.header-btn {
+    background: white;
+    margin-top: 50px;
+    border-radius: 25px;
+    border-color: hsl(322, 100%, 66%);
+    height: 30px;
+    width: 100px;
+    color: hsl(322, 100%, 66%);
+}
+
+.header-btn:hover {
+    border-color: hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+
+.main-div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.main-div1 button {
+    background: hsl(322, 100%, 66%);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    height: 40px;
+    width: 300px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.24);
+}
+
+.main-div1 button:hover {
+    border-color: hsl(321, 100%, 78%);
+    background: hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+
+.main-div1 img {
+    margin-top: 100px;
+}
+
+.numbers {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.numbers p {
+    font-size: 400%;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.numbers img {
+    max-width: 20%;
+}
+
+.curve-top-img {
+    margin-top: 120px;
+    width: 99vw;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -5px;
+    background: hsl(207, 100%, 98%);
+}
+
+.content img {
+    max-width: 40%;
+}
+
+.curve-botton-img {
+    width: 99vw;
+}
+
+.middle-content {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.middle-content img {
+    max-width: 40%;
+}
+
+.bottom-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.bottom-main  button {
+    background: hsl(322, 100%, 66%);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    height: 40px;
+    width: 300px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.24);
+}
+
+.curve-footer {
+    margin-top: 120px;
+    max-width: 99vw;
+    margin-bottom: -4px;
+}
+
+.footer {
+    background: hsl(192, 100%, 9%);
+    color: white;
+    padding-bottom: 200px;
+    max-width: 99vw;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+}
+
+form .email-box {
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+form .btn {
+    background:hsl(322, 100%, 66%);
+    color: white;
+    height: 33px;
+    width: 106px;
+    border-radius: 5px;
+}
+
+.div-img {
+    display: flex;
+    max-width: 2%;
+    margin-left: 11vw;
+}
+
+.div-img img {
+    margin-right: 40px;
+}
+
+@media (max-width: 375px) {
+
+    header {
+        display: flex;
+        width: 99vw;
+    }
+
+    .header-logo {
+        margin-left: 20px;
+        max-width: 120%;
+    }
+
+    .header-btn {
+        margin-top: 40px;
+        width: 90px;
+        height: 20px;
+    }
+
+    main {
+        margin: 0px;
+    }
+
+    .main-div1 {
+        padding: 10px;
+    }
+    
+    .main-div1 h1 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 900;
+    }
+
+    .main-div1 p, button {
+        text-align: center;
+    }
+
+    .main-div1 button {
+        width: 200px;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .content img {
+        max-width: 70%;
+    }
+
+    .middle-content {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .middle-content img {
+        max-width: 70%;
+    }
+
+    .bottom-main {
+        text-align: center;
+    }
+
+    .bottom-main button {
+        width: 200px;
+    }
+
+    .curve-footer {
+        width: 100vw;
+    }
+
+    .footer {
+        max-width: 90vw;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    form .email-box {
+        margin: 0px;
+    }
+
+    .div-img {
+        max-width: 10%;
+    }
+}
