@@ -181,7 +181,7 @@ form .btn {
     margin-right: 40px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 460px) {
 
     header {
         display: flex;
