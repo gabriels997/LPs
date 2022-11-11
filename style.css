@@ -139,10 +139,11 @@ header {
 }
 
 .footer {
+    margin-top: -1px;
     background: hsl(192, 100%, 9%);
     color: white;
     padding-bottom: 200px;
-    max-width: 99vw;
+    max-width: 100vw;
 }
 
 .div1 {
