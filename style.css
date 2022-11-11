@@ -134,7 +134,7 @@ header {
 
 .curve-footer {
     margin-top: 120px;
-    max-width: 99vw;
+    width: 100vw;
     margin-bottom: -4px;
 }
 
